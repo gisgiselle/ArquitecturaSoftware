@@ -6,8 +6,8 @@ public class TreeDecorator implements ChristmasTree{
     }
 
     @Override
-    public String decorate() {
-        return ct.decorate();
+    public void decorate() {
+        this.ct.decorate();
     }
 
 }

@@ -4,12 +4,9 @@ public class ChristmasLights extends TreeDecorator{
         super(ct);
     }
 
-    public String decorate(){
-        return super.decorate() +decoratingWithLights();
-    }
-
-    public String decoratingWithLights(){
-        return " with Christmas Lights";
+    public void decorate(){
+         super.decorate();
+            System.out.println("Decorating with christmas lights");
     }
 
 

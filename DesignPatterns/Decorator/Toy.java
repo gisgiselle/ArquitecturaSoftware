@@ -3,11 +3,8 @@ public class Toy extends TreeDecorator{
         super(ct);
     }
 
-    public String decorate(){
-        return super.decorate() +decoratingWithToy();
-    }
-
-    public String decoratingWithToy(){
-        return " with Toy";
+    public void decorate(){
+        super.decorate();
+        System.out.println("Decorating with cute toys");
     }
 }
